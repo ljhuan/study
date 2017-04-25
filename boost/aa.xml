@@ -1,0 +1,76 @@
+<Vehicle>
+<CarPlate>?.A5862</CarPlate
+<PlateColor>2</PlateColor>
+<VehicleSpeed>10</VehicleSpeed>
+<PlateType>02</PlateType>
+<IdentifyStatus>0</IdentifyStatus>
+<VehicleColor>E</VehicleColor>
+<VehicleType>1</VehicleType>
+<DriveStatus>1</DriveStatus>
+<TollgateID>a1</TollgateID>
+<PassTime>20160919154123000</PassTime>
+<RecordID>276537</RecordID>
+<Image>
+    <ImageIndex>1</ImageIndex>
+    <ImageURL>http://204.204.31.125:8083/4449164932688117765/2016/09/19/15/a1/15412391805.jpg?fid=10555</ImageURL>
+    <ImageType>1</ImageType>
+    <ImageData></ImageData>
+</Image>
+<Image>
+    <ImageIndex>2</ImageIndex>
+    <ImageURL>http://204.204.31.125:8083/4449164932688117765/2016/09/19/15/a1/15412324105.jpg?fid=10555</ImageURL>
+    <ImageType>1</ImageType>
+    <ImageData></ImageData>
+</Image>
+<Image>
+    <ImageIndex>3</ImageIndex>
+    <ImageURL>http://204.204.31.125:8083/4449164932688117765/2016/09/19/15/a1/15412388505.jpg?fid=10555</ImageURL>
+    <ImageType>1</ImageType>
+    <ImageData></ImageData>
+</Image>
+<Image>
+    <ImageIndex>4</ImageIndex>
+    <ImageURL>http://204.204.31.125:8083/4449164932688117765/2016/09/19/15/a1/15412335505.jpg?fid=10555</ImageURL>
+    <ImageType>1</ImageType>
+    <ImageData></ImageData>
+</Image>
+<Image>
+    <ImageIndex>5</ImageIndex>
+    <ImageURL>http://204.204.31.125:8083/4449164932688117765/2016/09/19/15/a1/Character15412347705.jpg?fid=10555</ImageURL>
+    <ImageType>2</ImageType>
+    <ImageData></ImageData>
+</Image>
+<PicNumber>5</PicNumber>
+<LaneID>1</LaneID>
+<LaneType>1</LaneType>
+<Direction></Direction>
+<VehicleBrand>99</VehicleBrand>
+<PlateNumber>1</PlateNumber>
+<VehicleBody></VehicleBody>
+<VehicleLength>0</VehicleLength>
+<DealTag/>
+<PlaceCode></PlaceCode>
+<EquipmentType></EquipmentType>
+<PlateConfidence>0</PlateConfidence>
+<RearPlateConfidence>0</RearPlateConfidence>
+<GlobalComposeFlag>0</GlobalComposeFlag>
+<RedLightStartTime></RedLightStartTime>
+<RedLightEndTime></RedLightEndTime>
+<RedLightTime>0</RedLightTime>
+<LimitedSpeed>0</LimitedSpeed>
+<MarkedSpeed>0</MarkedSpeed>
+<VideoURL></VideoURL>
+<VideoURL2></VideoURL2>
+<DressColor/>
+<ApplicationType/>
+<RearPlateColor/>
+<RearPlateType/>
+<RearVehiclePlateID/>
+<PlateCoincide/>
+<DirectionName/>
+<CamID/>
+<ImageURL2/>
+<ImageURL3/>
+<ImageURL4/>
+<TollgateName/>
+</Vehicle>
