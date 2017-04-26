@@ -1,0 +1,44 @@
+1、tcpdump -i any port 端口号   // 查看端口抓到的包数据
+2、tcpdump -i any port 5435 -X -s 0 -w 1.pcap // 将抓到的包数据写到1.pcap文件中
+3、fg/bg 将进程放置到前台/将进程放置到后台（配合ctrl+z 暂停进程 来使用）
+4、top 查看进程
+5、history 查看历史命令
+6、locate 文件名  //定位文件位置
+   find -name 文件名 
+7、which 进程名 //定位进程位置
+8、netstat -apn 查看端口的占用情况
+   netstat -a //列出所有端口
+   netstat -c //将每隔一秒输出网络信息
+   netstat -r //显示核心路由信息
+   netstat -ap | grep 程序名 //找出程序运行的端口
+   netstat -an | grep 端口号 //找出运行在指定端口的进程
+9、iconv -f gbk -t utf8 [FileName] > 1
+   mv 1 > [FileName]   // 可将中文改为utf8格式
+10、locale 可查看系统配置的环境变量
+11、ps命令：
+    ps  a 显示终端机下的所有程序，包括其他用户的程序
+    ps -A 显示所有程序
+    ps  u 以用户为主的格式来显示程序状况
+    ps  x 显示所有程序，不以终端机来区分
+12、awk命令 //文本
+13、ctags //支持vim的函数记录该工具，有了这个工具，使用vim则可以跳转函数
+14、yum install yum-utils //安装yum工具包
+15、readelf -a xxx.so | grep NEED //查看库所需要直接链接的库
+    ldd xxx.so  //查看库所需的所有链接库 
+16、cd - //退回之前的目录
+17、nm 查看linux库内部接口
+18、cat /etc/passwd | grep -v /sbin/nologin | cut -d : -f 1 //查看当前可以登录系统的用户
+19、2020 xxx  / passwd xxx / .../ usermod -g root xxx  //xxx 新用户的用户名
+20、date -s 06/18/14      //设置系统时间
+       date -s 14:20:50
+       date 0618141614.30
+	  date -s '2017-2-24 10:12:34 '
+21、hwclock --set --date="06/18/14 14:55" //设置硬件时间   
+22、hwclock --hctosys //hc 表示硬件 hctosys 用硬件时间初始化系统时间
+        hwclock --systohc //用系统时间初始化硬件时间
+23、%s /^M//g （^M 可通过ctrl + v   +   ctrl + M打出来）// 可将^M替换成/g
+24、(1) find . -name '*.cc' ! -type d -exec bash -c 'expand -t 4 "$0" > /tmp/e && mv /tmp/e "$0"' {} \; //替换当前文件的TAB为四个空格
+        (2) 用vim打开文件
+             :set ts=4
+             :set expandtab
+             :%retab!
