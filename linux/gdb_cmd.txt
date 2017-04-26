@@ -1,0 +1,42 @@
+1、n(next)
+2、b(breakpoint)
+3、x /60x 地址/变量  //以16进制形式显示60行
+4、i r(info regist)  //查看寄存器内容
+5、d(delete)
+6、b info(breakpoint info)
+7、bt(backtrace)
+8、where //等效于bt
+9、threads //显示所有线程信息
+10、thread 线程号 //切换到线程里
+11、set history expansion on //开启gdb历史命令记录功能
+12、show history
+13、gdb -p ‘pidof ias'
+14、frame
+15、gdb down/up 进入栈的下一层/上一层 
+16、set logging file /home/debuginfo.txt
+    set logging on
+    thread apply all bt
+    set logging off
+汇编指令
+1、movl a b  //tip: movl 可看成 = 号 a则为=号后面的值
+2、cmpl a b
+3、je(jump equal) //相等则跳转到后面的内存地址
+
+gdb调试单线程方法：
+gdb多线程有两种模式:all-stop 和 non-stop
+
+all-stop mode
+gdb默认情况开启的是all-stop模式，如字面意思，该模式下，如程序在某个线程里执行断点，则其他线程都会停止运行
+
+non-stop mode
+该模式下，虽然程序在某个线程里执行断点，但不会影响到其他线程
+show non-stop
+
+查看non-stop模式是否开启
+set non-stop on/off
+
+开启/关闭non-stop模式
+set target-async on
+set pagination off
+set non-stop on
+thread n
